@@ -1,0 +1,295 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+main {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+/* BARRA DE NAVEGACION */
+
+nav {
+    background-color: #24282B;
+    width: 100%;
+    height: 105px;
+    font-size: 15px;
+    border-bottom: 5px #0094d4 solid;
+}
+
+nav ul li {
+    float: left;
+    padding: 45px 27px;
+    list-style: none;
+}
+
+nav ul {
+    float: right;
+    padding-right: 130px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.inicio {
+    color: #0094d4;
+}
+
+.nosotros {
+    color: #0094d4;
+}
+
+.servicios {
+    color: #0094d4;
+}
+
+.contactanos {
+    color: #0094d4;
+}
+
+h3 {
+    padding: 30px 130px;
+    font-size: 30px;
+    float: left;
+    color:#F4F4F4;
+}
+
+h2 {
+    color: #F4F4F4;
+}
+
+span {
+    color: #1293D1;
+}
+
+/* CABEZERA DE LA PAGINA */
+
+.Cabeceras {
+    width: 100%;
+    height: 400px;
+    background: url("../images/cabecera.jpg") center no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 60px;
+    padding-top: 100px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    padding: 20px 180px;
+}
+
+/* PARTE PARA SUSCRIBIRSE EN LA PAGINA */
+
+.suscribete {
+    height: 90px;
+    background: #24282b;
+}
+
+.TextoSuscribanse {
+    float: left;
+    padding: 30px 150px;
+}
+
+.SegundoTextoSuscribanse {
+    padding: 30px 150px;
+}
+
+.boton {
+    float: right;
+    padding: 10px 20px;
+    background: #E8491D;
+}
+
+.email {
+    float: right;
+    padding: 2px;
+}
+
+.campo{
+    height: 33px;
+    width: 260px;
+}
+
+/* CUERPO DE LA PAGINA */
+
+.contenedor h4 {
+    padding: 20px;
+}
+
+.texto {
+    padding: 0 20px 20px;
+    font-size: 15px;
+}
+
+.cuerpo {
+    margin: 20px 130px;
+    
+}
+
+.contenedor {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 34px;
+}
+
+.contenedor img {
+    width: 90px;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    background-color: #0094d4;
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: auto;
+}
+
+.pie {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 14px;
+    color: #F4F4F4;
+}
+
+/* PAGINA NOSOTROS */
+
+.text h4 {
+    text-align: left;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.text {
+    margin-left: 130px;
+    float: left;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 740px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.text2 h5 {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.text2 p {
+    padding: 0 15px 15px 0;
+}
+
+.text2 {
+    margin: 20px 100px 0 0;
+    padding: 20px;
+    float: right;
+    background-color: #35424A;
+    width: 300px;
+    height: 170px;
+    color: #F4F4F4;
+}
+
+.text3 {
+    margin-left: 130px;
+    overflow: hidden;
+    padding: 20px;
+    width: 700px;
+    text-align: justify;
+    background-color:#35424A;
+    color: #F4F4F4;
+}
+
+.imagen {
+    margin: 10px 130px 10px;
+}
+.imagenNosotros {
+    margin: 10px 130px 10px;
+}
+.cafe {
+    width: 740px;
+    height: 320px;
+    margin-bottom: 19px;
+}
+
+/* PAGINA SERVICIOS */
+
+.titulo-caja {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.descripcion {
+    padding-bottom: 10px;
+}
+
+.caja {
+    margin: 25px 0 5px 130px;
+    padding: 30px 20px;
+    background-color: #E6E6E6;
+    border: 2px solid #DCDCDC;
+    width: 700px;
+    height: 100px;
+    float: left;
+    margin-bottom: 36px;
+}
+
+/* PAGINA CONTACTO */
+
+.mapa img{
+    width: 340px;
+    height: 270px;
+}
+
+.mapa{
+    float: right;
+    margin: 10px 100px 20px 0;
+}
+
+.formulario{
+    margin: 30px 0 20px 130px;
+    
+}
+
+article#datos{
+    float:left;
+    width:700px;
+}
+  
+input, textarea{
+    width: 100%;
+    height: 35px;
+    border: 1px solid gray; 
+    margin-bottom: 5px;
+}
+  
+textarea{
+    height: 120px;
+}
+  
+input[type='submit']{
+    background-color: #e8491d;
+    color: #fff;  
+}
+#pieContacto{
+    margin-top: 200px;
+}
