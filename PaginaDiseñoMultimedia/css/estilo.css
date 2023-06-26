@@ -16,7 +16,7 @@ main {
     margin-bottom: 10px;
 }
 
-/* BARRA DE NAVEGACION */
+
 
 nav {
     background-color: #24282B;
@@ -73,7 +73,7 @@ span {
     color: #1293D1;
 }
 
-/* CABEZERA DE LA PAGINA */
+/* CABECERA */ 
 
 .Cabeceras {
     width: 100%;
@@ -95,7 +95,7 @@ h1 {
     padding: 20px 180px;
 }
 
-/* PARTE PARA SUSCRIBIRSE EN LA PAGINA */
+
 
 .suscribete {
     height: 90px;
@@ -127,7 +127,7 @@ h1 {
     width: 260px;
 }
 
-/* CUERPO DE LA PAGINA */
+
 
 .contenedor h4 {
     padding: 20px;
@@ -155,7 +155,7 @@ h1 {
     width: 90px;
 }
 
-/* PIE DE PAGINA */
+
 
 footer {
     background-color: #0094d4;
@@ -172,7 +172,7 @@ footer {
     color: #F4F4F4;
 }
 
-/* PAGINA NOSOTROS */
+/* NOSOTROS */
 
 .text h4 {
     text-align: left;
@@ -231,7 +231,7 @@ footer {
     margin-bottom: 19px;
 }
 
-/* PAGINA SERVICIOS */
+/* SERVICIOS */
 
 .titulo-caja {
     padding-bottom: 20px;
@@ -253,7 +253,7 @@ footer {
     margin-bottom: 36px;
 }
 
-/* PAGINA CONTACTO */
+/*  CONTACTO */
 
 .mapa img{
     width: 340px;
